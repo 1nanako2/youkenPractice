@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T04:11:06.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_QZBzla0p-qLQcLOZQDp" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T04:31:45.454Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gBARXCWpAf8ALKn0dy-f" version="21.3.8" type="github" pages="2">
   <diagram name="コンテキスト図" id="wXWNoySB5MeSwLBhhdcW">
     <mxGraphModel dx="989" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,131 @@
         <mxCell id="VsZ0o9OAcSoznsKvvRpB-22" value="タスク管理・完了登録" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="VsZ0o9OAcSoznsKvvRpB-17">
           <mxGeometry x="0.2151" y="-1" relative="1" as="geometry">
             <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W_jL_CpSHzRpd0ZyK3hL" name="ユースケース図">
+    <mxGraphModel dx="989" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UaV8irdwyB3mfKyTP42f-1" value="PG" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UaV8irdwyB3mfKyTP42f-2" value="SE" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillStyle=hatch;fillColor=none;strokeColor=#FF3333;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="400" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-2" value="タスク管理システム" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-4" value="マイルストーン作成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-5" value="進捗を管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-6" value="ステータスを変更" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-7" value="タスクを確認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-8" value="プロジェクト作成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-9" value="タスクを登録・管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-10" value="タスクに紐づくスレッド上で会話&lt;br&gt;（質問、レビュー）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.02;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UaV8irdwyB3mfKyTP42f-1" target="Zl_GQKKmD3WqYG32IKhs-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="420" as="sourcePoint" />
+            <mxPoint x="130" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UaV8irdwyB3mfKyTP42f-1" target="Zl_GQKKmD3WqYG32IKhs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="290" as="sourcePoint" />
+            <mxPoint x="222" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UaV8irdwyB3mfKyTP42f-1" target="Zl_GQKKmD3WqYG32IKhs-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="290" as="sourcePoint" />
+            <mxPoint x="220" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-8" target="UaV8irdwyB3mfKyTP42f-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-4" target="UaV8irdwyB3mfKyTP42f-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="sourcePoint" />
+            <mxPoint x="630" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-9" target="UaV8irdwyB3mfKyTP42f-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="315" as="sourcePoint" />
+            <mxPoint x="630" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-5" target="UaV8irdwyB3mfKyTP42f-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="390" as="sourcePoint" />
+            <mxPoint x="630" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-10" target="UaV8irdwyB3mfKyTP42f-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="sourcePoint" />
+            <mxPoint x="630" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-20" value="未着手、作業中、&lt;br&gt;レビュー中、完了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-20" target="Zl_GQKKmD3WqYG32IKhs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="420" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-22" value="マイルストーン内のタスク完了率（%）を個人・全体で見る" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="Zl_GQKKmD3WqYG32IKhs-5" target="Zl_GQKKmD3WqYG32IKhs-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="590" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-24" value="タスク：PG = １：１（同じタスクの分担は、タスクを切り分けて登録する）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="Zl_GQKKmD3WqYG32IKhs-24" source="Zl_GQKKmD3WqYG32IKhs-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="590" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-26" value="・最長3か月まで（1日刻みで登録）&lt;br&gt;・マイルストーンは同時並行でもOK&lt;br&gt;・タスク：マイルストーン = １：１" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zl_GQKKmD3WqYG32IKhs-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="Zl_GQKKmD3WqYG32IKhs-26" source="Zl_GQKKmD3WqYG32IKhs-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="210" as="sourcePoint" />
+            <mxPoint x="630" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
