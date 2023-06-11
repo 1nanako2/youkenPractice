@@ -1,9 +1,304 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T01:15:15.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="uRgF9Vbz6IXU0wSYbsB8" type="github">
-  <diagram name="ページ1" id="G-IlNG6C6N0usewLotBW">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-06-11T02:55:20.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wSRljo0uDFZstDB6iRDG" version="21.3.8" type="github">
+  <diagram name="画面遷移図" id="G-IlNG6C6N0usewLotBW">
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fillStyle=auto;labelBackgroundColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fillStyle=auto;labelBackgroundColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="620" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-1" value="■画面遷移図" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-3" value="ログイン" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-3" target="luja3o-iw3-4LEcQ9ht4-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="230" as="sourcePoint" />
+            <mxPoint x="90" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-5" target="luja3o-iw3-4LEcQ9ht4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-5" target="luja3o-iw3-4LEcQ9ht4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-5" target="luja3o-iw3-4LEcQ9ht4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-5" target="luja3o-iw3-4LEcQ9ht4-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="190" />
+              <mxPoint x="170" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-5" value="TOPページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-6" target="luja3o-iw3-4LEcQ9ht4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-6" value="プロジェクト&lt;br&gt;作成ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-7" target="luja3o-iw3-4LEcQ9ht4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-7" value="マイルストーン&lt;br&gt;作成ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-8" value="タスク&lt;br&gt;作成ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-9" target="luja3o-iw3-4LEcQ9ht4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-9" value="タスク一覧&lt;br&gt;ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-10" target="luja3o-iw3-4LEcQ9ht4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-10" value="タスク詳細&lt;br&gt;ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-11" target="luja3o-iw3-4LEcQ9ht4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-11" value="スレッド&lt;br&gt;作成ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-12" value="スレッド" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-14" value="進捗確認&lt;br&gt;ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-24" value="■各画面の詳細（白黒のワイヤーフレームで「必要な項目」に集中）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-25" value="（１）ログイン" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="490" width="530" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-27" value="Email" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-29" value="Pass" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-30" value="ログイン" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="145" y="710" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-38" value="（２）TOPページ（「社員」に関連のある情報をドメインモデルから拾う）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="850" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="890" width="530" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-40" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="910" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-43" value="参加プロジェクト" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="920" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-46" value="・～～PJ&lt;br&gt;・●●PJ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="950" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-48" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1030" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-49" value="あなたのタスク" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1040" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-50" value="・～～調査（作業中）&lt;br&gt;・●●開発（未着手）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1070" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-51" value="進行中のマイルストーンから抽出" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="224" y="1030" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-52" value="＜すべて見る＞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="1110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-53" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1150" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-54" value="進行中のスレッド" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-55" value="・～～について質問&lt;br&gt;・●●の詳細確認＜未読あり＞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1190" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-56" value="＜すべて見る＞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="335" y="1230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-57" value="（３）タスク一覧/詳細" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="490" width="530" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-59" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-61" value="作業中&lt;br&gt;・～～調査&lt;br&gt;・●●機能開発" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="550" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-71" value="レビュー中&lt;br&gt;・～～ブラッシュアップ&lt;br&gt;・～～～～&lt;br&gt;・～～～～" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="635" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-72" value="全てのタスク" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-73" value="～～PJ" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="760" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-74" value="●●PJ" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-48" target="luja3o-iw3-4LEcQ9ht4-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1085" />
+              <mxPoint x="580" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-46" target="luja3o-iw3-4LEcQ9ht4-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="957" />
+              <mxPoint x="560" y="500" />
+              <mxPoint x="815" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-77" value="【～～調査】&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;～～～～～～～～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;～～～～～～～～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;～～～～～～～～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;詳細&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;～～～～～～～～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;～～～～～～～～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;～～～～～～～～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・～～PJ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・Phase1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・作業中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・https://~~&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;作業中のスレッド&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・～～～&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・～～～&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="560" width="170" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-78" target="luja3o-iw3-4LEcQ9ht4-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-78" value="スレッド作成" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="970" y="820" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-79" value="（４）スレッド作成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="910" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-80" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="950" width="530" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-81" value="　～～について確認（タスク：～～調査）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1010" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-82" value="タイトル" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="980" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-84" value="鈴木さん▼" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1090" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-85" value="宛先" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1060" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-89" value="　～～は●●の理解でよろしいでしょうか？" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1170" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-90" value="本文" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-94" value="タスク" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="777" y="1060" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-95" value="～～調査▼" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1090" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-96" value="プロジェクトに参加しているSEからプルダウン選択できる" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1120" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-97" value="タスク詳細からリンクしたら自動選択（他のタスクも選択可能）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1060" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-98" value="作成" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-100" value="（５）スレッド" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="450" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-101" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="490" width="530" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-103" value="～～について確認（タスク：～～調査）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="520" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-106" value="　&lt;u&gt;田中太郎　to鈴木　30 minutes ago&lt;/u&gt;&lt;br&gt;&lt;br&gt;　～～は●●の理解でよろしいでしょうか？" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="560" width="500" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-112" value="　&lt;u&gt;鈴木三郎　to田中　20 minutes ago&lt;/u&gt;&lt;br&gt;&lt;br&gt;　●●は検討しましたか？" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="660" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-114" value="　&lt;u&gt;田中太郎　to鈴木　5 minutes ago&lt;/u&gt;&lt;br&gt;&lt;br&gt;　～～で考えています" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="740" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-115" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="830" width="359" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-116" value="送信" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="835" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-117" value="解決にする" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="luja3o-iw3-4LEcQ9ht4-118" target="luja3o-iw3-4LEcQ9ht4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-118" value="スレッド&lt;br&gt;一覧ページ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-121" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241" y="644.58" as="sourcePoint" />
+            <mxPoint x="1770" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-122" value="スクロール時は&lt;br&gt;ここから下だけ動く" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-123" value="（６）スレッド一覧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="915" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-124" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="955" width="530" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-125" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="980" width="356" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-128" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;未読あり&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・～～について質問&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・●●の詳細確認&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="1065" width="139" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-135" value="検索" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="980" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-136" value="✓" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;strokeColor=none;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1020" width="18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-137" value="解決済みを含む" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1020" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-138" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;未読なし&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・～～について質問&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・●●の詳細確認&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="1169" width="139" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="luja3o-iw3-4LEcQ9ht4-139" value="デフォルトでは&lt;br&gt;「未解決のスレッド」を表示" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1160" width="170" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
